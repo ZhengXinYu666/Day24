@@ -1,0 +1,8 @@
+程序要创建大量生存期短的线程时
+由工厂类Executors 产生线程池
+public staic ExcutorService newCacherThreadPool()
+public staic ExcutorService newFixedThreadPool(int nThreads)
+public staic ExcutorService newSingleThreadExecutor()
+
+这些方法的返回值是Executor对象
+表示一个线程池，可以执行Runnable对象或者Callable对象代表的线程，提供了如下方法
